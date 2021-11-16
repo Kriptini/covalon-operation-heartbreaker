@@ -1,7 +1,7 @@
 {
     "name": "covalon-operation-heartbreaker",
     "title": "Covalon Adventure - Operation Heartbreaker",
-    "description": "Alpha version 0.0.1. Includes boss monsters for all four tiers for mock combat testing. ALL IMAGES ARE TEMP.",
+    "description": "Alpha version 0.1. Includes boss monsters for all four tiers for mock combat testing. ALL IMAGES ARE TEMP.",
     "author": "Kipza Quickclaw",
     "version": "0.1",
     "minimumCoreVersion": "0.8.9",
