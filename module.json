@@ -1,0 +1,25 @@
+{
+    "name": "covalon-operation-heartbreaker",
+    "title": "Covalon Adventure - Operation Heartbreaker",
+    "description": "Alpha version 0.0.1. Includes boss monsters for all four tiers for mock combat testing. ALL IMAGES ARE TEMP.",
+    "author": "Kipza Quickclaw",
+    "version": "0.1",
+    "minimumCoreVersion": "0.8.9",
+    "compatibleCoreVersion": "0.8.9",
+    "packs": [
+        {
+            "name": "covalon-operation-heartbreaker-actors",
+            "label": "_Operation Heartbreaker Actors",
+            "path": "./packs/covalon-operation-heartbreaker-actors.db",
+            "entity": "Actor",
+            "module": "covalon-operation-heartbreaker"
+        },
+		{
+			"name": "covalon-operation-heartbreaker-rolltables",
+            "label": "_Operation Heartbreaker Rolltables",
+            "path": "./packs/covalon-operation-heartbreaker-rolltables.db",
+            "entity": "RollTable",
+            "module": "covalon-operation-heartbreaker"
+		}
+    ]
+}
