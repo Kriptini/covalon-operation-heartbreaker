@@ -1,7 +1,7 @@
 {
     "name": "covalon-operation-heartbreaker",
     "title": "Covalon Adventure - Operation Heartbreaker",
-    "description": "Alpha version 0.4. All enemies. MOST IMAGES ARE TEMP.",
+    "description": "Alpha version 0.4. All enemies, half maps, half journals added. MOST IMAGES ARE TEMP.",
     "author": "Kipza Quickclaw",
     "version": "0.4",
     "minimumCoreVersion": "0.8.9",
@@ -20,6 +20,27 @@
             "path": "./packs/covalon-operation-heartbreaker-rolltables.db",
             "entity": "RollTable",
             "module": "covalon-operation-heartbreaker"
+		},
+		{
+			"name": "covalon-operation-heartbreaker-scenes",
+			"label": "_Operation Heartbreaker Scenes",
+			"path": "./packs/covalon-operation-heartbreaker-scenes.db",
+			"entity": "Scene",
+			"module": "covalon-operation-heartbreaker"
+		},
+		{
+			"name": "covalon-operation-heartbreaker-t1",
+			"label": "_Operation Heartbreaker (Tier 1)",
+			"path": "./packs/covalon-operation-heartbreaker-t1.db",
+			"entity": "JournalEntry",
+			"module": "covalon-operation-heartbreaker"
+		},
+		{
+			"name": "covalon-operation-heartbreaker-t2",
+			"label": "_Operation Heartbreaker (Tier 2)",
+			"path": "./packs/covalon-operation-heartbreaker-t2.db",
+			"entity": "JournalEntry",
+			"module": "covalon-operation-heartbreaker"
 		}
 	],
 	"url": "https://github.com/Kriptini/covalon-operation-heartbreaker",
