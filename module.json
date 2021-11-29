@@ -1,9 +1,9 @@
 {
     "name": "covalon-operation-heartbreaker",
     "title": "Covalon Adventure - Operation Heartbreaker",
-    "description": "Alpha version 0.4. All enemies, half maps, half journals added. MOST IMAGES ARE TEMP.",
+    "description": "Alpha version 0.5. All enemies and journal entries added. Phase 1 map still in progress.",
     "author": "Kipza Quickclaw",
-    "version": "0.4",
+    "version": "0.5",
     "minimumCoreVersion": "0.8.9",
     "compatibleCoreVersion": "0.8.9",
     "packs": [
@@ -41,9 +41,23 @@
 			"path": "./packs/covalon-operation-heartbreaker-t2.db",
 			"entity": "JournalEntry",
 			"module": "covalon-operation-heartbreaker"
+		},
+		{
+			"name": "covalon-operation-heartbreaker-t3",
+			"label": "_Operation Heartbreaker (Tier 3)",
+			"path": "./packs/covalon-operation-heartbreaker-t3.db",
+			"entity": "JournalEntry",
+			"module": "covalon-operation-heartbreaker"
+		},
+		{
+			"name": "covalon-operation-heartbreaker-vanguard",
+			"label": "_Operation Heartbreaker (Vanguard)",
+			"path": "./packs/covalon-operation-heartbreaker-vanguard.db",
+			"entity": "JournalEntry",
+			"module": "covalon-operation-heartbreaker"
 		}
 	],
 	"url": "https://github.com/Kriptini/covalon-operation-heartbreaker",
     "manifest": "https://github.com/Kriptini/covalon-operation-heartbreaker/releases/latest/download/module.json",
-    "download": "https://github.com/Kriptini/covalon-operation-heartbreaker/releases/download/0.4/module.zip"
+    "download": "https://github.com/Kriptini/covalon-operation-heartbreaker/releases/download/0.5/module.zip"
 }
